@@ -46,7 +46,7 @@
   "exportPath": "/home/emi/external/Obsidian/HTB/Archetype/docs",
   "filesToExport": [
     [
-      "ENUMERATION/Enumeration.md",
+      "Enumeration.md",
       "Foothold.md",
       "index.md",
       "MSSQL Server.md",

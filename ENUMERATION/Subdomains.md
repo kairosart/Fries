@@ -228,7 +228,7 @@ ffuf -u http://<MACHINE IP>/ -H "Host: FUZZ.fries.htb" \
      -fs 154
 ```
 
-![[ffuf.png]]
+![[ffuf 1.png]]
 
 - You’ve discovered a **new virtual host**: `code.fries.htb`.
     

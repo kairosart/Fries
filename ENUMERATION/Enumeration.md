@@ -8,7 +8,7 @@ nmap -sC -sV <MACHINE ip>
 ```
 
 ![[nmap1.png|1242x730]]
-![[nmap2.png]]
+![[NMAP2 1.png]]
 
 ## **Summary of Nmap Scan**
 

@@ -68,6 +68,8 @@ This host is a `Domain Controller for fries.htb` running standard AD services, w
 
 ## Add domain to /etc/hosts
 
+Before proceeding, we must ensure our attack machine can resolve the domain name. The LDAP service revealed the domain name: `fries.htb`.
+
 #Attakiing_machine 
 Add the following line to the file `/etc/hosts`.
 

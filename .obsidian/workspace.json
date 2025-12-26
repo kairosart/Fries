@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "EXPLOITATION/Swagger API.md",
+                "file": "EXPLOITATION/Gitea API.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Swagger API"
+              "title": "Gitea API"
             }
           },
           {
@@ -28,13 +28,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "EXPLOITATION/Swagger API.md",
+                "file": "INITIAL FOOTHOLD/Testing credentials.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Swagger API"
+              "title": "Testing credentials"
             }
           },
           {
@@ -51,9 +51,39 @@
               "icon": "lucide-file",
               "title": "Active Directory"
             }
+          },
+          {
+            "id": "9a4fce1e7bdfb71c",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
           }
-        ],
-        "currentTab": 1
+        ]
+      },
+      {
+        "id": "60d470ceb5d3b62f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "bb5584e7a1398b7e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "README.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "README"
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -174,13 +204,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "EXPLOITATION/Swagger API.md",
+                "file": "EXPLOITATION/Gitea API.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Swagger API"
+              "title": "Outline of Gitea API"
             }
           },
           {
@@ -345,25 +375,29 @@
       "oz-clear-unused-images:Clear Unused Images": false
     }
   },
-  "active": "35d37754c17fb0e6",
+  "active": "dd317c1ed69310f4",
   "lastOpenFiles": [
-    "index.md",
+    "INITIAL FOOTHOLD/Testing credentials.md",
     "EXPLOITATION/Gitea API.md",
-    "EXPLOITATION/Active Directory.md",
     "EXPLOITATION/Swagger API.md",
+    "README.md",
+    "EXPLOITATION/Active Directory.md",
+    "EXPLOITATION/Enumerating some ports.md",
+    "EXPLOITATION/Gitea attack.md",
+    "EXPLOITATION/REAL attack paths.md",
     "ENUMERATION/Gitea Public repositories.md",
     "ENUMERATION/Subdomains.md",
-    "EXPLOITATION/REAL attack paths.md",
+    "ENUMERATION/Enumeration.md",
+    "nxc.png",
+    "INITIAL FOOTHOLD",
+    "index.md",
     "squeme.png",
     "images/hydra.png",
     "swagger.png",
-    "EXPLOITATION/Enumerating some ports.md",
-    "EXPLOITATION/Gitea attack.md",
     "admiinistrator.png",
     "dale.png",
     "SMB.md",
     "Enumeration.md",
-    "README.md",
     "docs/lib/metadata.json",
     "Tab 7.md",
     "docs/lib/media/6155340132a851f6089e.svg",
@@ -375,7 +409,6 @@
     "docs/lib/fonts/70cc7ff27245e82ad414.ttf",
     "docs/lib/fonts/535a6cf662596b3bd6a6.woff2",
     "docs/lib/fonts/cbe0ae49c52c920fd563.woff2",
-    "docs/lib/fonts/b5f0f109bc88052d4000.woff2",
     "Tab 6.md",
     "Tab 5.md",
     "Tab 4.md",
@@ -388,10 +421,6 @@
     "Tab 1.md",
     "images/privileges.png",
     "images/admin_shell.png",
-    "images/admin_pass.png",
-    "images/consolehos_history.png",
-    "ACT I - Somethig phishy/Investigating.md",
-    "ACT I - Somethig phishy/Ghidra.md",
-    "ACT I - Somethig phishy/Connecting.md"
+    "images/admin_pass.png"
   ]
 }

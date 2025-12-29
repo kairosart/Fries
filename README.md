@@ -2,10 +2,10 @@
 The HackTheBox machine "Fries" is a hard difficulty challenge that involves a multi-stage attack on a complex Active Directory infrastructure with interconnected systems, including a Windows Server 2022 Domain Controller and an Ubuntu web server. 
 
 ## Nmap
-The target domain is fries.htb, and the attack chain begins with identifying open services through aggressive nmap scans, which reveal ports such as 22 (SSH), 53 (DNS), 80 (HTTP), 88 (Kerberos), 135 (RPC), 389 (LDAP), 443 (HTTPS), 445 (SMB), 5985 (WinRM), and others indicative of a Windows Active Directory environment.
+The target domain is `fries.htb`, and the attack chain begins with identifying open services through aggressive nmap scans, which reveal ports such as 22 (SSH), 53 (DNS), 80 (HTTP), 88 (Kerberos), 135 (RPC), 389 (LDAP), 443 (HTTPS), 445 (SMB), 5985 (WinRM), and others indicative of a Windows Active Directory environment.
 
 ## DNS
-Initial reconnaissance involves adding domain hostnames to the /etc/hosts file to resolve subdomains like code.fries.htb, db-mgmt05.fries.htb, and pwm.fries.htb, enabling access to hosted web applications.
+Initial reconnaissance involves adding domain hostnames to the /etc/hosts file to resolve subdomains like `code.fries.htb, db-mgmt05.fries.htb, and pwm.fries.htb`, enabling access to hosted web applications.
 
 ## Gitea
 A Gitea repository at `code.fries.htb` is discovered, which contains application code and reveals sensitive credentials, including a database URL with a password: `D4LE11maan!!`. This leads to the exploitation of a pgAdmin instance (db-mgmt05.fries.htb) vulnerable to CVE-2025-2945, allowing remote code execution and a shell as the pgadmin user inside a Docker container.

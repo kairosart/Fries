@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "EXPLOITATION/Gitea API.md",
+                "file": "ENUMERATION/Gitea Public repositories.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Gitea API"
+              "title": "Gitea Public repositories"
             }
           },
           {
@@ -28,13 +28,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "INITIAL FOOTHOLD/Testing credentials.md",
+                "file": "index.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Testing credentials"
+              "title": "index"
             }
           },
           {
@@ -115,7 +115,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "hydra",
+                "query": "code.",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -204,13 +204,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "EXPLOITATION/Gitea API.md",
+                "file": "ENUMERATION/Gitea Public repositories.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Gitea API"
+              "title": "Outline of Gitea Public repositories"
             }
           },
           {
@@ -377,25 +377,28 @@
   },
   "active": "dd317c1ed69310f4",
   "lastOpenFiles": [
+    "images/dale.png",
+    "ENUMERATION/Gitea Public repositories.md",
+    "images/repos.png",
+    "index.md",
     "INITIAL FOOTHOLD/Testing credentials.md",
-    "EXPLOITATION/Gitea API.md",
+    "images/signin.png",
+    "ENUMERATION/Subdomains.md",
+    "images/ffuf.png",
+    "ENUMERATION/Enumeration.md",
+    "EXPLOITATION/REAL attack paths.md",
     "EXPLOITATION/Swagger API.md",
-    "README.md",
+    "EXPLOITATION/Gitea API.md",
     "EXPLOITATION/Active Directory.md",
     "EXPLOITATION/Enumerating some ports.md",
     "EXPLOITATION/Gitea attack.md",
-    "EXPLOITATION/REAL attack paths.md",
-    "ENUMERATION/Gitea Public repositories.md",
-    "ENUMERATION/Subdomains.md",
-    "ENUMERATION/Enumeration.md",
-    "nxc.png",
+    "README.md",
+    "images/nxc.png",
     "INITIAL FOOTHOLD",
-    "index.md",
-    "squeme.png",
+    "images/squeme.png",
     "images/hydra.png",
-    "swagger.png",
-    "admiinistrator.png",
-    "dale.png",
+    "images/swagger.png",
+    "images/admiinistrator.png",
     "SMB.md",
     "Enumeration.md",
     "docs/lib/metadata.json",
@@ -418,9 +421,6 @@
     "Privilege Escalation.md",
     "MSSQL Server.md",
     "Foothold.md",
-    "Tab 1.md",
-    "images/privileges.png",
-    "images/admin_shell.png",
-    "images/admin_pass.png"
+    "Tab 1.md"
   ]
 }

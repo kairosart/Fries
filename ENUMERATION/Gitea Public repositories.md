@@ -70,4 +70,4 @@ git log -p --all | grep -i "postgresql\|postgres\|database_url\|sqlalchemy" -B 5
 SECRET_KEY=y0st528wn1idjk3b9a
 
 
-**Next step: ** [[Subdomain db-mgmt05.fries.htb]]
+**Next step:** [[Subdomain db-mgmt05.fries.htb]]

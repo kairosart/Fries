@@ -14,13 +14,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "EXPLOITATION/Docker Network Exploration.md",
+                "file": "EXPLOITATION/Pivoting.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Docker Network Exploration"
+              "title": "Pivoting"
             }
           },
           {
@@ -45,7 +45,7 @@
               "type": "markdown",
               "state": {
                 "file": "EXPLOITATION/Pivoting.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false,
                 "backlinks": false
               },
@@ -53,8 +53,7 @@
               "title": "Pivoting"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       },
       {
         "id": "60d470ceb5d3b62f",
@@ -144,36 +143,17 @@
         "type": "tabs",
         "children": [
           {
-            "id": "ccc02e77c44db05e",
-            "type": "leaf",
-            "state": {
-              "type": "backlink",
-              "state": {
-                "file": "Welcome.md",
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical",
-                "showSearch": false,
-                "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
-              },
-              "icon": "lucide-ghost",
-              "title": "backlink"
-            }
-          },
-          {
             "id": "0749071249cbc61a",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Welcome.md",
-                "linksCollapsed": false,
+                "file": "EXPLOITATION/Pivoting.md",
+                "linksCollapsed": true,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Welcome"
+              "title": "Outgoing links from Pivoting"
             }
           },
           {
@@ -197,13 +177,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "images/cve2025-2945.png",
+                "file": "EXPLOITATION/Pivoting.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of cve2025-2945"
+              "title": "Outline of Pivoting"
             }
           },
           {
@@ -350,7 +330,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
+    "width": 200,
     "collapsed": true
   },
   "left-ribbon": {
@@ -368,26 +348,26 @@
       "oz-clear-unused-images:Clear Unused Images": false
     }
   },
-  "active": "49d2e38fa784abc2",
+  "active": "dd317c1ed69310f4",
   "lastOpenFiles": [
+    "README.md",
     "EXPLOITATION/Pivoting.md",
-    "EXPLOITATION/Docker Network Exploration.md",
+    "diagram.png",
+    "docker-compose.yml.png",
+    "dalefries.htb.png",
+    "dale_repo.png",
     "ENUMERATION/Gitea Public repositories.md",
     "EXPLOITATION/Subdomain db-mgmt05.fries.htb.md",
     "EXPLOITATION/Initial AccessCVE-2025-2945 - pgAdmin RCE.md",
+    "gitea_users.png",
+    "gitea_tables.png",
+    "EXPLOITATION/Docker Network Exploration.md",
+    "pgAdmin_Dashboard.png",
+    "root_password.png",
     "ENUMERATION/Subdomains.md",
     "images/postgr_credentials.png",
     "images/printenv.png",
-    "README.md",
-    "images/meterpreter_shell.png",
-    "images/docker_container.png",
-    "images/msfconsole.png",
-    "images/cve2025-2945.png",
-    "images/pgAdmin_about.png",
-    "images/pgadmin_browser.png",
-    "images/pgAdmin.png",
     "index.md",
-    "configuration-1.png",
     "EXPLOITATION/Active Directory.md",
     "EXPLOITATION/Swagger API.md",
     "EXPLOITATION/Gitea API.md",
@@ -414,7 +394,6 @@
     "Tab 5.md",
     "Tab 4.md",
     "Tab 3.md",
-    "Tab 2.md",
-    "Reverse shell.md"
+    "Tab 2.md"
   ]
 }

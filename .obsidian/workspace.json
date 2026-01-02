@@ -14,13 +14,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "EXPLOITATION/Pivoting.md",
+                "file": "POST EXPLOITATION - DOCKER CONTAINER/Network Pivoting with Ligolo-ng.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Pivoting"
+              "title": "Network Pivoting with Ligolo-ng"
             }
           },
           {
@@ -148,12 +148,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "EXPLOITATION/Pivoting.md",
+                "file": "POST EXPLOITATION - DOCKER CONTAINER/Network Pivoting with Ligolo-ng.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Pivoting"
+              "title": "Outgoing links from Network Pivoting with Ligolo-ng"
             }
           },
           {
@@ -177,13 +177,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "EXPLOITATION/Pivoting.md",
+                "file": "POST EXPLOITATION - DOCKER CONTAINER/Network Pivoting with Ligolo-ng.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Pivoting"
+              "title": "Outline of Network Pivoting with Ligolo-ng"
             }
           },
           {
@@ -352,21 +352,25 @@
   "lastOpenFiles": [
     "README.md",
     "EXPLOITATION/Pivoting.md",
-    "diagram.png",
-    "docker-compose.yml.png",
-    "dalefries.htb.png",
-    "dale_repo.png",
+    "images/root_password.png",
+    "POST EXPLOITATION - DOCKER CONTAINER/Network Pivoting with Ligolo-ng.md",
+    "Untitled/Untitled.base",
+    "Untitled/Untitled 1.base",
+    "POST EXPLOITATION - DOCKER CONTAINER",
+    "images/net_diagram.png",
+    "images/diagram.png",
+    "images/docker-compose.yml.png",
+    "images/dalefries.htb.png",
+    "images/dale_repo.png",
     "ENUMERATION/Gitea Public repositories.md",
     "EXPLOITATION/Subdomain db-mgmt05.fries.htb.md",
     "EXPLOITATION/Initial AccessCVE-2025-2945 - pgAdmin RCE.md",
-    "gitea_users.png",
-    "gitea_tables.png",
+    "images/gitea_users.png",
+    "images/gitea_tables.png",
     "EXPLOITATION/Docker Network Exploration.md",
-    "pgAdmin_Dashboard.png",
-    "root_password.png",
+    "images/pgAdmin_Dashboard.png",
     "ENUMERATION/Subdomains.md",
     "images/postgr_credentials.png",
-    "images/printenv.png",
     "index.md",
     "EXPLOITATION/Active Directory.md",
     "EXPLOITATION/Swagger API.md",
@@ -387,13 +391,9 @@
     "docs/lib/fonts/05b618077343fbbd92b7.ttf",
     "docs/lib/fonts/52ac8f3034507f1d9e53.ttf",
     "docs/lib/fonts/454577c22304619db035.ttf",
-    "docs/lib/fonts/70cc7ff27245e82ad414.ttf",
-    "docs/lib/fonts/535a6cf662596b3bd6a6.woff2",
-    "docs/lib/fonts/cbe0ae49c52c920fd563.woff2",
     "Tab 6.md",
     "Tab 5.md",
     "Tab 4.md",
-    "Tab 3.md",
-    "Tab 2.md"
+    "Tab 3.md"
   ]
 }

@@ -185,6 +185,11 @@
       "ctime": 1759776767799,
       "path": "EXPLOITATION/Initial access.md",
       "subpath": "#Reverse Shell"
+    },
+    {
+      "type": "file",
+      "ctime": 1767469577448,
+      "path": "images/Diagram.svg"
     }
   ]
 }

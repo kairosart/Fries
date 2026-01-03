@@ -12,7 +12,9 @@ A Gitea repository at `code.fries.htb` is discovered, which contains application
 
 ## Docker
 
-From the compromised container, the attacker pivots further using *Ligolo-ng* to establish a tunnel to the internal network, gaining access to the Docker network (172.18.0.0/24) and the internal network (192.168.100.0/24). *Linpeas* reveals additional credentials, including a pgAdmin default password: Friesf00Ds2025!!. A writable /etc/passwd file and an NFS share mounted from 172.18.0.1 are discovered, with the share located at /srv/web.fries.htb and accessible to the public. By exploiting NFS misconfigurations and creating matching user and group IDs on the attacker machine, a SUID-enabled bash binary is placed on the shared NFS folder, allowing privilege escalation to the user barman on the web server.
+From the compromised container, the attacker pivots further using *Ligolo-ng* to establish a tunnel to the internal network, gaining access to the Docker network (172.18.0.0/24) and the internal network (192.168.100.0/24).
+
+*Linpeas* reveals additional credentials, including a pgAdmin default password: Friesf00Ds2025!!. A writable /etc/passwd file and an NFS share mounted from 172.18.0.1 are discovered, with the share located at /srv/web.fries.htb and accessible to the public. By exploiting NFS misconfigurations and creating matching user and group IDs on the attacker machine, a SUID-enabled bash binary is placed on the shared NFS folder, allowing privilege escalation to the user barman on the web server.
 
 ## SSH
 

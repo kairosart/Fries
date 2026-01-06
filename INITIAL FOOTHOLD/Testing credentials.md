@@ -11,7 +11,7 @@ The engagement documentation provided specific credentials:
 
 ## Testing SSH (The Linux Tier):
 
-#Attakiing_machine 
+#Attacking_machine 
 ```
 ssh d.cooper@<MACHINE IP>
 ```
@@ -36,6 +36,6 @@ nxc smb <MACHINE IP> -u 'd.cooper' -p 'D4LE11maan!!'
 
 ### SMB Share Enumeration
 
-#Attakiing_machine 
+#Attacking_machine 
 With a valid AD session, you can enumerate the SMB shares. This is often the bridge between the two layers. *Developers frequently mount Windows shares into Linux web servers to access code or configuration files.*
 

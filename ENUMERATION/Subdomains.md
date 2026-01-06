@@ -1,5 +1,5 @@
 
-#Attakiing_machine 
+#Attacking_machine 
 Look for subdomains.
 
 ### DNS ANY Query Summary – *fries.htb*
@@ -137,7 +137,7 @@ You now have confirmation of:
 
 ## Directory brute-force `fries.htb`
 
-#Attakiing_machine 
+#Attacking_machine 
 Do a VHost brute-force.
 
 ```

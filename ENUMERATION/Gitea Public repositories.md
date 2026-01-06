@@ -1,6 +1,6 @@
 ## Enumerate Public Repositories (FIRST)
 
-#Attakiing_machine 
+#Attacking_machine 
 Open in browser:
 
 ```

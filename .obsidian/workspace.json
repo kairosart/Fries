@@ -6,7 +6,7 @@
       {
         "id": "3a0fe6c66f88da91",
         "type": "tabs",
-        "dimension": 64.50980392156863,
+        "dimension": 56.86274509803921,
         "children": [
           {
             "id": "dd317c1ed69310f4",
@@ -38,13 +38,12 @@
               "title": "Pivoting"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "60d470ceb5d3b62f",
         "type": "tabs",
-        "dimension": 35.490196078431374,
+        "dimension": 43.13725490196079,
         "children": [
           {
             "id": "bb5584e7a1398b7e",
@@ -163,13 +162,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "EXPLOITATION/Pivoting.md",
+                "file": "POST EXPLOITATION - DOCKER CONTAINER/Network Pivoting with Ligolo-ng.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Pivoting"
+              "title": "Outline of Network Pivoting with Ligolo-ng"
             }
           },
           {
@@ -334,29 +333,31 @@
       "oz-clear-unused-images:Clear Unused Images": false
     }
   },
-  "active": "35d37754c17fb0e6",
+  "active": "dd317c1ed69310f4",
   "lastOpenFiles": [
-    "images/Diagram.svg.xml",
-    "images/Diagram.svg",
-    "POST EXPLOITATION - DOCKER CONTAINER/Network Pivoting with Ligolo-ng.md",
-    "README.md",
-    "images/pgAdmin_continer_diagram.png",
     "EXPLOITATION/Pivoting.md",
-    "EXPLOITATION/Docker Network Exploration.md",
+    "POST EXPLOITATION - DOCKER CONTAINER/Network Pivoting with Ligolo-ng.md",
+    "images/Diagram_internal_Docker_Network.svg",
+    "images/diagram.png",
     "images/ligolo-ng.agent.png",
     "images/ligolo-ng.proxy.png",
+    "images/pgAdmin_continer_diagram.png",
+    "EXPLOITATION/Docker Network Exploration.md",
     "EXPLOITATION/Initial AccessCVE-2025-2945 - pgAdmin RCE.md",
-    "EXPLOITATION/Subdomain db-mgmt05.fries.htb.md",
+    "images/diagram_internal_network.png",
+    "Diagram_TUN_PROXY.svg",
+    "Diagram_TUN_PROXY.svg.xml",
     "ENUMERATION/Gitea Public repositories.md",
+    "EXPLOITATION/Subdomain db-mgmt05.fries.htb.md",
+    "INITIAL FOOTHOLD/Testing credentials.md",
+    "images/Diagram_internal_Docker_Network.svg.xml",
+    "README.md",
     "images/root_password.png",
     "Untitled/Untitled.base",
     "Untitled/Untitled 1.base",
     "POST EXPLOITATION - DOCKER CONTAINER",
     "images/net_diagram.png",
-    "images/diagram.png",
     "images/docker-compose.yml.png",
-    "images/dalefries.htb.png",
-    "images/dale_repo.png",
     "ENUMERATION/Subdomains.md",
     "index.md",
     "EXPLOITATION/Active Directory.md",
@@ -366,7 +367,6 @@
     "EXPLOITATION/Gitea attack.md",
     "EXPLOITATION/REAL attack paths.md",
     "ENUMERATION/Confirm LDAP auth in Gitea (no creds needed).md",
-    "INITIAL FOOTHOLD/Testing credentials.md",
     "ENUMERATION/Enumeration.md",
     "INITIAL FOOTHOLD",
     "SMB.md",
@@ -376,7 +376,6 @@
     "docs/lib/media",
     "docs/lib/fonts/4bb6ac751d1c5478ff3a.woff2",
     "docs/lib/fonts/05b618077343fbbd92b7.ttf",
-    "docs/lib/fonts/52ac8f3034507f1d9e53.ttf",
     "Tab 6.md",
     "Tab 5.md",
     "Tab 4.md",

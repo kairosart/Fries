@@ -1,7 +1,7 @@
 ## Nmap
 This a enumeration task. You can use *nmap* to figure out the answer.
 
-#Attakiing_machine
+#Attacking_machine
 
 ```
 nmap -sC -sV <MACHINE ip>
@@ -70,7 +70,7 @@ This host is a `Domain Controller for fries.htb` running standard AD services, w
 
 Before proceeding, we must ensure our attack machine can resolve the domain name. The LDAP service revealed the domain name: `fries.htb`.
 
-#Attakiing_machine 
+#Attacking_machine 
 Add the following line to the file `/etc/hosts`.
 
 ```

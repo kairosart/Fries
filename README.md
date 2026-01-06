@@ -23,3 +23,7 @@ SSH access is obtained as the svc user using the password Friesf00Ds2025!!, and 
 ## Kerberos
 
 Further exploitation involves abusing Kerberos delegation through the msDS-AllowedToActOnBehalfOfOtherIdentity attribute, allowing the attacker to impersonate the Administrator on a target machine (FRIES-WEB) using S4U2Self and S4U2Proxy attacks, ultimately leading to full domain compromise. The attack chain demonstrates the use of multiple vulnerabilities across web applications, container escape, NFS misconfigurations, and Active Directory privilege escalation techniques.
+
+
+---
+![[Diagram_general.svg]]

@@ -29,16 +29,29 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "EXPLOITATION/Pivoting.md",
+                "file": "EXPLOITATION/Initial AccessCVE-2025-2945 - pgAdmin RCE.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Pivoting"
+              "title": "Initial AccessCVE-2025-2945 - pgAdmin RCE"
+            }
+          },
+          {
+            "id": "d783f0944da57123",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "images/Diagram_general.svg"
+              },
+              "icon": "lucide-image",
+              "title": "Diagram_general"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "60d470ceb5d3b62f",
@@ -52,7 +65,7 @@
               "type": "markdown",
               "state": {
                 "file": "README.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false,
                 "backlinks": false
               },
@@ -162,13 +175,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "POST EXPLOITATION - DOCKER CONTAINER/Network Pivoting with Ligolo-ng.md",
+                "file": "EXPLOITATION/Initial AccessCVE-2025-2945 - pgAdmin RCE.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Network Pivoting with Ligolo-ng"
+              "title": "Outline of Initial AccessCVE-2025-2945 - pgAdmin RCE"
             }
           },
           {
@@ -333,31 +346,33 @@
       "oz-clear-unused-images:Clear Unused Images": false
     }
   },
-  "active": "dd317c1ed69310f4",
+  "active": "35d37754c17fb0e6",
   "lastOpenFiles": [
+    "EXPLOITATION/Docker Network Exploration.md",
     "EXPLOITATION/Pivoting.md",
     "POST EXPLOITATION - DOCKER CONTAINER/Network Pivoting with Ligolo-ng.md",
+    "README.md",
+    "EXPLOITATION/Subdomain db-mgmt05.fries.htb.md",
+    "EXPLOITATION/Initial AccessCVE-2025-2945 - pgAdmin RCE.md",
+    "images/Diagram_general.svg",
     "images/Diagram_internal_Docker_Network.svg",
+    "images/diagram_internal_network.png",
+    "images/Diagram_general.svg.xml",
+    "images/Untitled Document",
+    "images/Diagram_general.png",
     "images/diagram.png",
     "images/ligolo-ng.agent.png",
     "images/ligolo-ng.proxy.png",
     "images/pgAdmin_continer_diagram.png",
-    "EXPLOITATION/Docker Network Exploration.md",
-    "EXPLOITATION/Initial AccessCVE-2025-2945 - pgAdmin RCE.md",
-    "images/diagram_internal_network.png",
     "Diagram_TUN_PROXY.svg",
     "Diagram_TUN_PROXY.svg.xml",
     "ENUMERATION/Gitea Public repositories.md",
-    "EXPLOITATION/Subdomain db-mgmt05.fries.htb.md",
     "INITIAL FOOTHOLD/Testing credentials.md",
     "images/Diagram_internal_Docker_Network.svg.xml",
-    "README.md",
     "images/root_password.png",
     "Untitled/Untitled.base",
     "Untitled/Untitled 1.base",
     "POST EXPLOITATION - DOCKER CONTAINER",
-    "images/net_diagram.png",
-    "images/docker-compose.yml.png",
     "ENUMERATION/Subdomains.md",
     "index.md",
     "EXPLOITATION/Active Directory.md",
@@ -374,8 +389,6 @@
     "docs/lib/metadata.json",
     "Tab 7.md",
     "docs/lib/media",
-    "docs/lib/fonts/4bb6ac751d1c5478ff3a.woff2",
-    "docs/lib/fonts/05b618077343fbbd92b7.ttf",
     "Tab 6.md",
     "Tab 5.md",
     "Tab 4.md",

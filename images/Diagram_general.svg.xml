@@ -1,0 +1,202 @@
+<svg width="484pt" height="1633pt" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events" style="overflow: hidden; "><g id="viewport-20260106175328490" class="svg-pan-zoom_viewport" transform="matrix(1.0741601303922406,0,0,1.0741601303922406,-84.53711164068429,448.6341527397814)" style="transform: matrix(1.07416, 0, 0, 1.07416, -84.5371, 448.634);">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 1628.96)">
+<title>FriesAttackChain</title>
+<polygon fill="white" stroke="none" points="-4,4 -4,-1628.96 480,-1628.96 480,4 -4,4"></polygon>
+<text text-anchor="middle" x="238" y="-1610.16" font-family="Times,serif" font-size="12.00">Fries Attack Chain — Full Domain Compromise</text>
+<g id="clust3" class="cluster">
+<title>cluster_ad</title>
+<polygon fill="#fae9ff" stroke="#bd10e0" points="8,-8 8,-474.83 468,-474.83 468,-8 8,-8"></polygon>
+<text text-anchor="middle" x="238" y="-460.03" font-family="Times,serif" font-size="12.00">Active Directory Escalation</text>
+</g>
+<g id="clust1" class="cluster">
+<title>cluster_web</title>
+<polygon fill="#e8f2fc" stroke="#4a90e2" points="111,-1034.09 111,-1523.76 365,-1523.76 365,-1034.09 111,-1034.09"></polygon>
+<text text-anchor="middle" x="238" y="-1508.96" font-family="Times,serif" font-size="12.00">Web &amp; External Recon</text>
+</g>
+<g id="clust2" class="cluster">
+<title>cluster_docker</title>
+<polygon fill="#f1fbea" stroke="#7ed321" points="76,-509.63 76,-999.29 400,-999.29 400,-509.63 76,-509.63"></polygon>
+<text text-anchor="middle" x="238" y="-984.49" font-family="Times,serif" font-size="12.00">Docker &amp; Internal Network</text>
+</g>
+<!-- Attacker -->
+<g id="node1" class="node">
+<title>Attacker</title>
+<ellipse fill="#ffd2d2" stroke="black" cx="238" cy="-1584.56" rx="64.94" ry="18"></ellipse>
+<text text-anchor="middle" x="238" y="-1580.36" font-family="Segoe UI" font-size="14.00">Attacker Host</text>
+</g>
+<!-- Nmap -->
+<g id="node2" class="node">
+<title>Nmap</title>
+<ellipse fill="#bbd9ff" stroke="black" cx="238" cy="-1463.94" rx="82.81" ry="29.42"></ellipse>
+<text text-anchor="middle" x="238" y="-1468.14" font-family="Segoe UI" font-size="14.00">Nmap Scan</text>
+<text text-anchor="middle" x="238" y="-1451.34" font-family="Segoe UI" font-size="14.00">(AD Ports Found)</text>
+</g>
+<!-- Attacker-&gt;Nmap -->
+<g id="edge1" class="edge">
+<title>Attacker-&gt;Nmap</title>
+<path fill="none" stroke="black" d="M238,-1566.31C238,-1550.34 238,-1525.98 238,-1505.14"></path>
+<polygon fill="black" stroke="black" points="241.5,-1505.2 238,-1495.2 234.5,-1505.2 241.5,-1505.2"></polygon>
+<text text-anchor="middle" x="271.63" y="-1535.96" font-family="Times,serif" font-size="14.00">initial recon</text>
+</g>
+<!-- DNS -->
+<g id="node3" class="node">
+<title>DNS</title>
+<ellipse fill="#bbd9ff" stroke="black" cx="238" cy="-1352.31" rx="84.72" ry="29.42"></ellipse>
+<text text-anchor="middle" x="238" y="-1356.51" font-family="Segoe UI" font-size="14.00">DNS Enumeration</text>
+<text text-anchor="middle" x="238" y="-1339.71" font-family="Segoe UI" font-size="14.00">Subdomains</text>
+</g>
+<!-- Nmap-&gt;DNS -->
+<g id="edge2" class="edge">
+<title>Nmap-&gt;DNS</title>
+<path fill="none" stroke="black" d="M238,-1434.14C238,-1421.67 238,-1406.87 238,-1393.37"></path>
+<polygon fill="black" stroke="black" points="241.5,-1393.43 238,-1383.43 234.5,-1393.44 241.5,-1393.43"></polygon>
+<text text-anchor="middle" x="272.99" y="-1403.93" font-family="Times,serif" font-size="14.00">enumeration</text>
+</g>
+<!-- Gitea -->
+<g id="node4" class="node">
+<title>Gitea</title>
+<polygon fill="#d6e9ff" stroke="black" points="312.09,-1270.09 163.91,-1270.09 163.91,-1211.69 312.09,-1211.69 312.09,-1270.09"></polygon>
+<text text-anchor="middle" x="238" y="-1253.49" font-family="Segoe UI" font-size="14.00">Gitea Repo</text>
+<text text-anchor="middle" x="238" y="-1236.69" font-family="Segoe UI" font-size="14.00">• Source Code</text>
+<text text-anchor="middle" x="238" y="-1219.89" font-family="Segoe UI" font-size="14.00">• DB Credentials Leak</text>
+</g>
+<!-- DNS-&gt;Gitea -->
+<g id="edge3" class="edge">
+<title>DNS-&gt;Gitea</title>
+<path fill="none" stroke="black" d="M238,-1322.56C238,-1310.12 238,-1295.35 238,-1281.87"></path>
+<polygon fill="black" stroke="black" points="241.5,-1281.96 238,-1271.96 234.5,-1281.96 241.5,-1281.96"></polygon>
+<text text-anchor="middle" x="296.91" y="-1292.29" font-family="Times,serif" font-size="14.00">discover subdomains</text>
+</g>
+<!-- PgAdmin -->
+<g id="node5" class="node">
+<title>PgAdmin</title>
+<polygon fill="#c7e1ff" stroke="black" points="238,-1158.89 119.35,-1100.49 238,-1042.09 356.65,-1100.49 238,-1158.89"></polygon>
+<text text-anchor="middle" x="238" y="-1113.09" font-family="Segoe UI" font-size="14.00">pgAdmin RCE</text>
+<text text-anchor="middle" x="238" y="-1096.29" font-family="Segoe UI" font-size="14.00">(CVE-2025-2945)</text>
+<text text-anchor="middle" x="238" y="-1079.49" font-family="Segoe UI" font-size="14.00">• Remote Shell</text>
+</g>
+<!-- Gitea-&gt;PgAdmin -->
+<g id="edge4" class="edge">
+<title>Gitea-&gt;PgAdmin</title>
+<path fill="none" stroke="black" d="M238,-1211.22C238,-1199.35 238,-1185.02 238,-1170.69"></path>
+<polygon fill="black" stroke="black" points="241.5,-1170.76 238,-1160.76 234.5,-1170.77 241.5,-1170.76"></polygon>
+<text text-anchor="middle" x="279" y="-1181.09" font-family="Times,serif" font-size="14.00">credential leak</text>
+</g>
+<!-- Docker -->
+<g id="node6" class="node">
+<title>Docker</title>
+<polygon fill="#d9f5c8" stroke="black" points="317.53,-968.89 158.47,-968.89 158.47,-910.49 317.53,-910.49 317.53,-968.89"></polygon>
+<text text-anchor="middle" x="238" y="-952.29" font-family="Segoe UI" font-size="14.00">Docker Container Access</text>
+<text text-anchor="middle" x="238" y="-935.49" font-family="Segoe UI" font-size="14.00">• pgadmin user shell</text>
+<text text-anchor="middle" x="238" y="-918.69" font-family="Segoe UI" font-size="14.00">• Ligolo-ng Tunnel</text>
+</g>
+<!-- PgAdmin-&gt;Docker -->
+<g id="edge5" class="edge">
+<title>PgAdmin-&gt;Docker</title>
+<path fill="none" stroke="black" d="M238,-1041.71C238,-1021.39 238,-999.03 238,-980.52"></path>
+<polygon fill="black" stroke="black" points="241.5,-980.77 238,-970.77 234.5,-980.77 241.5,-980.77"></polygon>
+<text text-anchor="middle" x="272.81" y="-1011.49" font-family="Times,serif" font-size="14.00">RCE exploit</text>
+</g>
+<!-- DockerNet -->
+<g id="node7" class="node">
+<title>DockerNet</title>
+<ellipse fill="#e4f9d7" stroke="black" cx="238" cy="-828.28" rx="77.56" ry="29.42"></ellipse>
+<text text-anchor="middle" x="238" y="-832.48" font-family="Segoe UI" font-size="14.00">Docker Network</text>
+<text text-anchor="middle" x="238" y="-815.68" font-family="Segoe UI" font-size="14.00">172.18.0.0/24</text>
+</g>
+<!-- Docker-&gt;DockerNet -->
+<g id="edge6" class="edge">
+<title>Docker-&gt;DockerNet</title>
+<path fill="none" stroke="black" d="M238,-910.23C238,-897.79 238,-882.98 238,-869.45"></path>
+<polygon fill="black" stroke="black" points="241.5,-869.49 238,-859.49 234.5,-869.49 241.5,-869.49"></polygon>
+<text text-anchor="middle" x="252.39" y="-879.89" font-family="Times,serif" font-size="14.00">pivot</text>
+</g>
+<!-- InternalNet -->
+<g id="node8" class="node">
+<title>InternalNet</title>
+<ellipse fill="#e4f9d7" stroke="black" cx="238" cy="-716.65" rx="80.89" ry="29.42"></ellipse>
+<text text-anchor="middle" x="238" y="-720.85" font-family="Segoe UI" font-size="14.00">Internal Network</text>
+<text text-anchor="middle" x="238" y="-704.05" font-family="Segoe UI" font-size="14.00">192.168.100.0/24</text>
+</g>
+<!-- DockerNet-&gt;InternalNet -->
+<g id="edge7" class="edge">
+<title>DockerNet-&gt;InternalNet</title>
+<path fill="none" stroke="black" d="M238,-798.47C238,-786.01 238,-771.21 238,-757.71"></path>
+<polygon fill="black" stroke="black" points="241.5,-757.77 238,-747.77 234.5,-757.77 241.5,-757.77"></polygon>
+<text text-anchor="middle" x="279.01" y="-768.26" font-family="Times,serif" font-size="14.00">internal access</text>
+</g>
+<!-- NFS -->
+<g id="node9" class="node">
+<title>NFS</title>
+<polygon fill="#cff2b3" stroke="black" points="238,-634.43 84.35,-576.03 238,-517.63 391.65,-576.03 238,-634.43"></polygon>
+<text text-anchor="middle" x="238" y="-588.63" font-family="Segoe UI" font-size="14.00">NFS Misconfiguration</text>
+<text text-anchor="middle" x="238" y="-571.83" font-family="Segoe UI" font-size="14.00">• Writable share</text>
+<text text-anchor="middle" x="238" y="-555.03" font-family="Segoe UI" font-size="14.00">• SUID Bash → barman</text>
+</g>
+<!-- InternalNet-&gt;NFS -->
+<g id="edge8" class="edge">
+<title>InternalNet-&gt;NFS</title>
+<path fill="none" stroke="black" d="M238,-686.93C238,-675.04 238,-660.69 238,-646.34"></path>
+<polygon fill="black" stroke="black" points="241.5,-646.39 238,-636.39 234.5,-646.39 241.5,-646.39"></polygon>
+<text text-anchor="middle" x="294.96" y="-656.63" font-family="Times,serif" font-size="14.00">misconfig discovery</text>
+</g>
+<!-- SSH -->
+<g id="node10" class="node">
+<title>SSH</title>
+<ellipse fill="#f3d1ff" stroke="black" cx="238" cy="-415.02" rx="59.98" ry="29.42"></ellipse>
+<text text-anchor="middle" x="238" y="-419.22" font-family="Segoe UI" font-size="14.00">SSH Access</text>
+<text text-anchor="middle" x="238" y="-402.42" font-family="Segoe UI" font-size="14.00">User: svc</text>
+</g>
+<!-- NFS-&gt;SSH -->
+<g id="edge9" class="edge">
+<title>NFS-&gt;SSH</title>
+<path fill="none" stroke="black" d="M238,-517.17C238,-496.83 238,-474.43 238,-455.9"></path>
+<polygon fill="black" stroke="black" points="241.5,-456.13 238,-446.13 234.5,-456.13 241.5,-456.13"></polygon>
+<text text-anchor="middle" x="307.78" y="-487.03" font-family="Times,serif" font-size="14.00">priv esc → barman → svc</text>
+</g>
+<!-- ADCS -->
+<g id="node11" class="node">
+<title>ADCS</title>
+<polygon fill="#ebc6ff" stroke="black" points="339.7,-332.8 136.3,-332.8 136.3,-274.4 339.7,-274.4 339.7,-332.8"></polygon>
+<text text-anchor="middle" x="238" y="-316.2" font-family="Segoe UI" font-size="14.00">AD CS ESC1 Abuse</text>
+<text text-anchor="middle" x="238" y="-299.4" font-family="Segoe UI" font-size="14.00">• Vulnerable Template: FryAuth</text>
+<text text-anchor="middle" x="238" y="-282.6" font-family="Segoe UI" font-size="14.00">• Admin Certificate</text>
+</g>
+<!-- SSH-&gt;ADCS -->
+<g id="edge10" class="edge">
+<title>SSH-&gt;ADCS</title>
+<path fill="none" stroke="black" d="M238,-385.27C238,-372.83 238,-358.06 238,-344.58"></path>
+<polygon fill="black" stroke="black" points="241.5,-344.67 238,-334.67 234.5,-344.67 241.5,-344.67"></polygon>
+<text text-anchor="middle" x="284.85" y="-355" font-family="Times,serif" font-size="14.00">AD enumeration</text>
+</g>
+<!-- Kerberos -->
+<g id="node12" class="node">
+<title>Kerberos</title>
+<polygon fill="#e3b8ff" stroke="black" points="238,-221.6 15.92,-163.2 238,-104.8 460.08,-163.2 238,-221.6"></polygon>
+<text text-anchor="middle" x="238" y="-175.8" font-family="Segoe UI" font-size="14.00">Kerberos Delegation Abuse</text>
+<text text-anchor="middle" x="238" y="-159" font-family="Segoe UI" font-size="14.00">• msDS-AllowedToActOnBehalfOf</text>
+<text text-anchor="middle" x="238" y="-142.2" font-family="Segoe UI" font-size="14.00">• S4U2Self / S4U2Proxy</text>
+</g>
+<!-- ADCS-&gt;Kerberos -->
+<g id="edge11" class="edge">
+<title>ADCS-&gt;Kerberos</title>
+<path fill="none" stroke="black" d="M238,-273.92C238,-262.05 238,-247.73 238,-233.4"></path>
+<polygon fill="black" stroke="black" points="241.5,-233.47 238,-223.47 234.5,-233.47 241.5,-233.47"></polygon>
+<text text-anchor="middle" x="272.03" y="-243.8" font-family="Times,serif" font-size="14.00">ESC1 abuse</text>
+</g>
+<!-- DomainAdmin -->
+<g id="node13" class="node">
+<title>DomainAdmin</title>
+<polygon fill="#d89cff" stroke="black" points="342.07,-52 133.93,-52 133.93,-16 342.07,-16 342.07,-52"></polygon>
+<text text-anchor="middle" x="238" y="-29.8" font-family="Segoe UI" font-size="14.00">FULL DOMAIN COMPROMISE</text>
+</g>
+<!-- Kerberos-&gt;DomainAdmin -->
+<g id="edge12" class="edge">
+<title>Kerberos-&gt;DomainAdmin</title>
+<path fill="none" stroke="black" d="M238,-104.55C238,-90.36 238,-75.76 238,-63.63"></path>
+<polygon fill="black" stroke="black" points="241.5,-63.93 238,-53.93 234.5,-63.93 241.5,-63.93"></polygon>
+<text text-anchor="middle" x="285.62" y="-74.2" font-family="Times,serif" font-size="14.00">delegation attack</text>
+</g>
+</g>
+</g></svg>
+

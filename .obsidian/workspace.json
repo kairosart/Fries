@@ -6,7 +6,7 @@
       {
         "id": "3a0fe6c66f88da91",
         "type": "tabs",
-        "dimension": 56.86274509803921,
+        "dimension": 78.56209150326798,
         "children": [
           {
             "id": "dd317c1ed69310f4",
@@ -29,6 +29,21 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "EXPLOITATION/Pivoting.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Pivoting"
+            }
+          },
+          {
+            "id": "e25540fc02c6cf74",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "EXPLOITATION/Initial AccessCVE-2025-2945 - pgAdmin RCE.md",
                 "mode": "source",
                 "source": false,
@@ -39,24 +54,27 @@
             }
           },
           {
-            "id": "d783f0944da57123",
+            "id": "106819f6a717e581",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "images/Diagram_general.svg"
+                "file": "POST EXPLOITATION - DOCKER CONTAINER/RCE via Query Tool.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
               },
-              "icon": "lucide-image",
-              "title": "Diagram_general"
+              "icon": "lucide-file",
+              "title": "RCE via Query Tool"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       },
       {
         "id": "60d470ceb5d3b62f",
         "type": "tabs",
-        "dimension": 43.13725490196079,
+        "dimension": 21.437908496732025,
         "children": [
           {
             "id": "bb5584e7a1398b7e",
@@ -175,13 +193,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "EXPLOITATION/Initial AccessCVE-2025-2945 - pgAdmin RCE.md",
+                "file": "images/Diagram_TUN_PROXY.svg",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Initial AccessCVE-2025-2945 - pgAdmin RCE"
+              "title": "Outline of Diagram_TUN_PROXY"
             }
           },
           {
@@ -346,30 +364,33 @@
       "oz-clear-unused-images:Clear Unused Images": false
     }
   },
-  "active": "35d37754c17fb0e6",
+  "active": "49d2e38fa784abc2",
   "lastOpenFiles": [
-    "EXPLOITATION/Docker Network Exploration.md",
-    "EXPLOITATION/Pivoting.md",
+    "POST EXPLOITATION - DOCKER CONTAINER/RCE via Query Tool.md",
+    "images/PostgresSQLServer.png",
+    "EXPLOITATION/Initial AccessCVE-2025-2945 - pgAdmin RCE.md",
     "POST EXPLOITATION - DOCKER CONTAINER/Network Pivoting with Ligolo-ng.md",
+    "POST EXPLOITATION - DOCKER CONTAINER/Understanding the Internal Network.md",
+    "EXPLOITATION/Pivoting.md",
+    "images/internal_work_squema-1.png",
+    "images/internal_work_squema 1.png",
+    "images/Diagram_general.svg",
+    "images/internal_work_squema.png",
+    "POST EXPLOITATION - DOCKER CONTAINER/images",
+    "EXPLOITATION/Docker Network Exploration.md",
+    "images/tunnel_list.png",
+    "images/ligolo-ng.session-1.png",
+    "images/ligolo-ng.session.png",
     "README.md",
     "EXPLOITATION/Subdomain db-mgmt05.fries.htb.md",
-    "EXPLOITATION/Initial AccessCVE-2025-2945 - pgAdmin RCE.md",
-    "images/Diagram_general.svg",
     "images/Diagram_internal_Docker_Network.svg",
     "images/diagram_internal_network.png",
     "images/Diagram_general.svg.xml",
     "images/Untitled Document",
-    "images/Diagram_general.png",
-    "images/diagram.png",
-    "images/ligolo-ng.agent.png",
-    "images/ligolo-ng.proxy.png",
-    "images/pgAdmin_continer_diagram.png",
-    "Diagram_TUN_PROXY.svg",
-    "Diagram_TUN_PROXY.svg.xml",
+    "images/Diagram_TUN_PROXY.svg.xml",
     "ENUMERATION/Gitea Public repositories.md",
     "INITIAL FOOTHOLD/Testing credentials.md",
     "images/Diagram_internal_Docker_Network.svg.xml",
-    "images/root_password.png",
     "Untitled/Untitled.base",
     "Untitled/Untitled 1.base",
     "POST EXPLOITATION - DOCKER CONTAINER",
@@ -388,10 +409,7 @@
     "Enumeration.md",
     "docs/lib/metadata.json",
     "Tab 7.md",
-    "docs/lib/media",
     "Tab 6.md",
-    "Tab 5.md",
-    "Tab 4.md",
-    "Tab 3.md"
+    "Tab 5.md"
   ]
 }

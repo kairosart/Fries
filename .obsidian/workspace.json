@@ -29,32 +29,17 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "EXPLOITATION/Pivoting.md",
+                "file": "POST EXPLOITATION - DOCKER CONTAINER/Network Pivoting with Ligolo-ng.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Pivoting"
+              "title": "Network Pivoting with Ligolo-ng"
             }
           },
           {
             "id": "e25540fc02c6cf74",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "EXPLOITATION/Initial AccessCVE-2025-2945 - pgAdmin RCE.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "Initial AccessCVE-2025-2945 - pgAdmin RCE"
-            }
-          },
-          {
-            "id": "106819f6a717e581",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -69,7 +54,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       },
       {
         "id": "60d470ceb5d3b62f",
@@ -193,13 +178,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "images/Diagram_TUN_PROXY.svg",
+                "file": "images/play.png",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Diagram_TUN_PROXY"
+              "title": "Outline of play"
             }
           },
           {
@@ -366,25 +351,26 @@
   },
   "active": "49d2e38fa784abc2",
   "lastOpenFiles": [
-    "POST EXPLOITATION - DOCKER CONTAINER/RCE via Query Tool.md",
-    "images/PostgresSQLServer.png",
-    "EXPLOITATION/Initial AccessCVE-2025-2945 - pgAdmin RCE.md",
     "POST EXPLOITATION - DOCKER CONTAINER/Network Pivoting with Ligolo-ng.md",
+    "POST EXPLOITATION - DOCKER CONTAINER/RCE via Query Tool.md",
+    "images/query1.png",
+    "images/data_output.png",
+    "images/play.png",
+    "query_tool.png",
     "POST EXPLOITATION - DOCKER CONTAINER/Understanding the Internal Network.md",
+    "EXPLOITATION/Docker Network Exploration.md",
+    "index.md",
+    "EXPLOITATION/Initial AccessCVE-2025-2945 - pgAdmin RCE.md",
+    "EXPLOITATION/Subdomain db-mgmt05.fries.htb.md",
     "EXPLOITATION/Pivoting.md",
+    "images/Diagram_TUN_PROXY.svg",
+    "images/PostgresSQLServer.png",
     "images/internal_work_squema-1.png",
     "images/internal_work_squema 1.png",
     "images/Diagram_general.svg",
     "images/internal_work_squema.png",
     "POST EXPLOITATION - DOCKER CONTAINER/images",
-    "EXPLOITATION/Docker Network Exploration.md",
-    "images/tunnel_list.png",
-    "images/ligolo-ng.session-1.png",
-    "images/ligolo-ng.session.png",
     "README.md",
-    "EXPLOITATION/Subdomain db-mgmt05.fries.htb.md",
-    "images/Diagram_internal_Docker_Network.svg",
-    "images/diagram_internal_network.png",
     "images/Diagram_general.svg.xml",
     "images/Untitled Document",
     "images/Diagram_TUN_PROXY.svg.xml",
@@ -395,7 +381,6 @@
     "Untitled/Untitled 1.base",
     "POST EXPLOITATION - DOCKER CONTAINER",
     "ENUMERATION/Subdomains.md",
-    "index.md",
     "EXPLOITATION/Active Directory.md",
     "EXPLOITATION/Swagger API.md",
     "EXPLOITATION/Gitea API.md",

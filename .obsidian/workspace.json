@@ -6,7 +6,7 @@
       {
         "id": "3a0fe6c66f88da91",
         "type": "tabs",
-        "dimension": 78.56209150326798,
+        "dimension": 79.93464052287582,
         "children": [
           {
             "id": "dd317c1ed69310f4",
@@ -14,13 +14,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "POST EXPLOITATION - DOCKER CONTAINER/Network Pivoting with Ligolo-ng.md",
+                "file": "POST EXPLOITATION - DOCKER CONTAINER/RCE via Query Tool.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Network Pivoting with Ligolo-ng"
+              "title": "RCE via Query Tool"
             }
           },
           {
@@ -44,22 +44,67 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "POST EXPLOITATION - DOCKER CONTAINER/RCE via Query Tool.md",
+                "file": "EXPLOITATION/Initial AccessCVE-2025-2945 - pgAdmin RCE.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "RCE via Query Tool"
+              "title": "Initial AccessCVE-2025-2945 - pgAdmin RCE"
+            }
+          },
+          {
+            "id": "4bc9e07c110be6b2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Pivot Map (Attacker Movement Path).md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Pivot Map (Attacker Movement Path)"
+            }
+          },
+          {
+            "id": "9d0930f19f9cd453",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Pivot Map (Attacker Movement Path).md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Pivot Map (Attacker Movement Path)"
+            }
+          },
+          {
+            "id": "485f912d14ee0f2a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Pivot Map (Attacker Movement Path).md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Pivot Map (Attacker Movement Path)"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 5
       },
       {
         "id": "60d470ceb5d3b62f",
         "type": "tabs",
-        "dimension": 21.437908496732025,
+        "dimension": 20.065359477124183,
         "children": [
           {
             "id": "bb5584e7a1398b7e",
@@ -108,7 +153,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#Attakiing_machine",
+                "query": "perl",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -178,13 +223,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "images/play.png",
+                "file": "Pivot Map (Attacker Movement Path).md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of play"
+              "title": "Outline of Pivot Map (Attacker Movement Path)"
             }
           },
           {
@@ -349,33 +394,39 @@
       "oz-clear-unused-images:Clear Unused Images": false
     }
   },
-  "active": "49d2e38fa784abc2",
+  "active": "485f912d14ee0f2a",
   "lastOpenFiles": [
-    "POST EXPLOITATION - DOCKER CONTAINER/Network Pivoting with Ligolo-ng.md",
     "POST EXPLOITATION - DOCKER CONTAINER/RCE via Query Tool.md",
-    "images/query1.png",
-    "images/data_output.png",
-    "images/play.png",
-    "query_tool.png",
-    "POST EXPLOITATION - DOCKER CONTAINER/Understanding the Internal Network.md",
-    "EXPLOITATION/Docker Network Exploration.md",
+    "Pivot Map (Attacker Movement Path).md",
+    "Diagram.svg.xml",
+    "Diagram.svg",
+    "Fries HTB – Full Attack Graph.md",
+    "Docker Container Schema.md",
+    "ENUMERATION/Enumeration.md",
+    "ENUMERATION/Gitea Public repositories.md",
+    "images/Code injection through LDAP queries.md",
     "index.md",
+    "POST EXPLOITATION - DOCKER CONTAINER/Understanding the Internal Network.md",
+    "images/diagram_internal_network.png",
+    "POST EXPLOITATION - DOCKER CONTAINER/Network Pivoting with Ligolo-ng.md",
     "EXPLOITATION/Initial AccessCVE-2025-2945 - pgAdmin RCE.md",
-    "EXPLOITATION/Subdomain db-mgmt05.fries.htb.md",
-    "EXPLOITATION/Pivoting.md",
-    "images/Diagram_TUN_PROXY.svg",
-    "images/PostgresSQLServer.png",
-    "images/internal_work_squema-1.png",
-    "images/internal_work_squema 1.png",
     "images/Diagram_general.svg",
-    "images/internal_work_squema.png",
-    "POST EXPLOITATION - DOCKER CONTAINER/images",
+    "images/ligolo-ng.session-1.png",
+    "images/tunnel_list.png",
+    "images/internal_work_squema-1.png",
+    "images/PostgresSQLServer.png",
+    "images/register_server1-1.png",
+    "images/register_server2.png",
+    "images/container_ip.png",
+    "EXPLOITATION/Subdomain db-mgmt05.fries.htb.md",
+    "EXPLOITATION/Docker Network Exploration.md",
+    "INITIAL FOOTHOLD/Testing credentials.md",
+    "EXPLOITATION/Pivoting.md",
     "README.md",
+    "POST EXPLOITATION - DOCKER CONTAINER/images",
     "images/Diagram_general.svg.xml",
     "images/Untitled Document",
     "images/Diagram_TUN_PROXY.svg.xml",
-    "ENUMERATION/Gitea Public repositories.md",
-    "INITIAL FOOTHOLD/Testing credentials.md",
     "images/Diagram_internal_Docker_Network.svg.xml",
     "Untitled/Untitled.base",
     "Untitled/Untitled 1.base",
@@ -388,13 +439,7 @@
     "EXPLOITATION/Gitea attack.md",
     "EXPLOITATION/REAL attack paths.md",
     "ENUMERATION/Confirm LDAP auth in Gitea (no creds needed).md",
-    "ENUMERATION/Enumeration.md",
     "INITIAL FOOTHOLD",
-    "SMB.md",
-    "Enumeration.md",
-    "docs/lib/metadata.json",
-    "Tab 7.md",
-    "Tab 6.md",
-    "Tab 5.md"
+    "SMB.md"
   ]
 }

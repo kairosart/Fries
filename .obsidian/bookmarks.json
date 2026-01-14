@@ -190,6 +190,17 @@
       "type": "file",
       "ctime": 1767469577448,
       "path": "images/Diagram_internal_Docker_Network.svg"
+    },
+    {
+      "type": "file",
+      "ctime": 1768042290367,
+      "path": "EXPLOITATION/Docker Network Exploration.md",
+      "subpath": "#**2. The container was started with default pgAdmin credentials**"
+    },
+    {
+      "type": "file",
+      "ctime": 1768385170057,
+      "path": "Pivot Map (Attacker Movement Path).md"
     }
   ]
 }

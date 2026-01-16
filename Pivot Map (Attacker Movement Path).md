@@ -47,7 +47,7 @@
 │    • Now outside Docker, on the real OS                      │
 └──────────────────────────────────────────────────────────────┘
                 │
-                │  Enumer![[Diagram.svg|914x975]]ate host → find NFS export
+                │  Enumer![[Diagram.svg|912x973]]ate host → find NFS export
                 ▼
 ┌──────────────────────────────────────────────────────────────┐
 │ 7. NFS Export (/srv/web.fries.htb)                           │
@@ -78,7 +78,7 @@
 └──────────────────────────────────────────────────────────────┘
 ```
 
-![[Diagram.svg|914x975]]
+![[Diagram.svg|912x973]]
 
 
 

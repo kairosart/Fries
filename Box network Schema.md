@@ -33,14 +33,14 @@ Everything inside the application stack lives here.
 
 # 📦 **Containers Overview**
 
-|Container Name|Image|Internal IP|Exposed Ports|Purpose|
-|---|---|---|---|---|
-|**ps_db**|postgres:16|172.18.0.x|5432|Main PostgreSQL database for the web app|
-|**pgadmin**|dpage/pgadmin4:9.1.0|172.18.0.x|5050|PgAdmin interface (db-mgmt05.fries.htb)|
-|**gitea**|gitea/gitea:1.22.6|172.18.0.x|3000|Gitea instance (code.fries.htb)|
-|**pwm**|pwm/pwm-webapp|172.18.0.x|8443|PWM password manager (pwm.fries.htb)|
-|**fries-web**|custom Python app|172.18.0.x|5000|Main Fries web application|
-|**reverse-proxy**|nginx or traefik|172.18.0.x|80, 443|Routes external domains to containers|
+| Container Name    | Image                | Internal IP | Exposed Ports | Purpose                                  |
+| ----------------- | -------------------- | ----------- | ------------- | ---------------------------------------- |
+| **ps_db**         | postgres:16          | 172.18.0.x  | 5432          | Main PostgreSQL database for the web app |
+| **pgadmin**       | dpage/pgadmin4:9.1.0 | 172.18.0.3  | 5050          | PgAdmin interface (db-mgmt05.fries.htb)  |
+| **gitea**         | gitea/gitea:1.22.6   | 172.18.0.x  | 3000          | Gitea instance (code.fries.htb)          |
+| **pwm**           | pwm/pwm-webapp       | 172.18.0.x  | 8443          | PWM password manager (pwm.fries.htb)     |
+| **fries-web**     | custom Python app    | 172.18.0.x  | 5000          | Main Fries web application               |
+| **reverse-proxy** | nginx or traefik     | 172.18.0.x  | 80, 443       | Routes external domains to containers    |
 
 _(IPs vary depending on container startup order, but all live in 172.18.0.0/16.)_
 

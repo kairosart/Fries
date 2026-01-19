@@ -201,6 +201,12 @@
       "type": "file",
       "ctime": 1768385170057,
       "path": "Pivot Map (Attacker Movement Path).md"
+    },
+    {
+      "type": "file",
+      "ctime": 1768848598621,
+      "path": "EXPLOITATION/Escalate user svc_infra.md",
+      "subpath": "#Lists clients connected to the server"
     }
   ]
 }

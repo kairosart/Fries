@@ -8,3 +8,5 @@ Password: `D4LE11maan!!`
 
 
 ---
+MACHINE IP -> IP you get when connected to the machine.
+ATTACKING MACHINE -> The VPN IP.

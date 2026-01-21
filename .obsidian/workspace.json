@@ -28,43 +28,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "EXPLOITATION/Mounting client.md",
+                "file": "EXPLOITATION/Docker Daemon Access Layer.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Mounting client"
-            }
-          },
-          {
-            "id": "42359fe7f54751e8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "EXPLOITATION/Mounting client.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "Mounting client"
-            }
-          },
-          {
-            "id": "0303feb0b54ed828",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ENUMERATION/Subdomains.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "Subdomains"
+              "title": "Docker Daemon Access Layer"
             }
           },
           {
@@ -112,7 +82,8 @@
               "title": "README"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -144,7 +115,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#🏷️",
+                "query": "PwmConfiguration.xml",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -386,21 +357,26 @@
       "oz-clear-unused-images:Clear Unused Images": false
     }
   },
-  "active": "3e560b155af4a9ac",
+  "active": "5460435cedadc7f5",
   "lastOpenFiles": [
-    "EXPLOITATION/Mounting client.md",
+    "ldap.serverurls.png",
+    "README.md",
     "EXPLOITATION/Docker Daemon Access Layer.md",
-    "certs_directory.png",
+    "container_root.png",
+    "copntainers_list.png",
+    "EXPLOITATION/Mounting client.md",
     "EXPLOITATION/Detect common misconfigurations on NFS servers.md",
     "EXPLOITATION/Creating a tunnel.md",
     "EXPLOITATION/Escalate user svc_infra.md",
     "EXPLOITATION/SSH.md",
+    "Pivot Map (Attacker Movement Path).md",
+    "ENUMERATION/Subdomains.md",
+    "docker_version.png",
+    "openssl.png",
+    "certs_directory.png",
     "cert_ssh.png",
     "EXPLOITATION/Escalate user svc.md",
     "Fries HTB – Full Attack Graph.md",
-    "README.md",
-    "ENUMERATION/Subdomains.md",
-    "Pivot Map (Attacker Movement Path).md",
     "Diagram for dummies.md",
     "Box network Schema.md",
     "Diagram.svg.xml",
@@ -418,11 +394,7 @@
     "POST EXPLOITATION - DOCKER CONTAINER/RCE via Query Tool.md",
     "images/nfs_mount.png",
     "images/fuse_nfs.png",
-    "images/modify_fuse_nfs.png",
     "index.md",
-    "images/svc_hydra.png",
-    "images/list_files.png",
-    "images/hostsOnWeb.png",
     "images/Untitled 1.md",
     "images/Diagram.svg.xml",
     "POST EXPLOITATION - DOCKER CONTAINER/images",

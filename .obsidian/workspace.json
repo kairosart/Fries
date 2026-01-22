@@ -13,28 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "EXPLOITATION/Docker Daemon Access Layer.md",
+                "file": "EXPLOITATION/GMSA password dump.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Docker Daemon Access Layer"
-            }
-          },
-          {
-            "id": "5460435cedadc7f5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "EXPLOITATION/Docker Daemon Access Layer.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "Docker Daemon Access Layer"
+              "title": "GMSA password dump"
             }
           },
           {
@@ -43,13 +28,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pivot Map (Attacker Movement Path).md",
+                "file": "EXPLOITATION/Docker Daemon Access Layer.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Pivot Map (Attacker Movement Path)"
+              "title": "Docker Daemon Access Layer"
             }
           },
           {
@@ -81,9 +66,20 @@
               "icon": "lucide-file",
               "title": "README"
             }
+          },
+          {
+            "id": "f2408ae5ff7051f4",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "images/Diagram.svg"
+              },
+              "icon": "lucide-image",
+              "title": "Diagram"
+            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -136,8 +132,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -186,13 +181,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "EXPLOITATION/Docker Daemon Access Layer.md",
+                "file": "EXPLOITATION/GMSA password dump.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Docker Daemon Access Layer"
+              "title": "Outline of GMSA password dump"
             }
           },
           {
@@ -357,45 +352,45 @@
       "oz-clear-unused-images:Clear Unused Images": false
     }
   },
-  "active": "5460435cedadc7f5",
+  "active": "3e560b155af4a9ac",
   "lastOpenFiles": [
-    "ldap.serverurls.png",
-    "README.md",
+    "images/Diagram.svg",
+    "EXPLOITATION/GMSA password dump.md",
     "EXPLOITATION/Docker Daemon Access Layer.md",
-    "container_root.png",
-    "copntainers_list.png",
+    "Pivot Map (Attacker Movement Path).md",
+    "images/testing_creds.png",
+    "images/listen_events.png",
+    "images/responder.png",
+    "images/pwm.fries.htb.png",
+    "Fries HTB – Full Attack Graph.md",
     "EXPLOITATION/Mounting client.md",
     "EXPLOITATION/Detect common misconfigurations on NFS servers.md",
     "EXPLOITATION/Creating a tunnel.md",
     "EXPLOITATION/Escalate user svc_infra.md",
     "EXPLOITATION/SSH.md",
-    "Pivot Map (Attacker Movement Path).md",
+    "images/ldap.serverurls.png",
+    "README.md",
+    "images/container_root.png",
+    "images/copntainers_list.png",
     "ENUMERATION/Subdomains.md",
-    "docker_version.png",
-    "openssl.png",
-    "certs_directory.png",
-    "cert_ssh.png",
+    "images/docker_version.png",
+    "images/openssl.png",
+    "images/certs_directory.png",
     "EXPLOITATION/Escalate user svc.md",
-    "Fries HTB – Full Attack Graph.md",
     "Diagram for dummies.md",
     "Box network Schema.md",
-    "Diagram.svg.xml",
-    "Diagram.svg",
+    "images/Diagram.svg.xml",
     "ENUMERATION/Gitea Public repositories.md",
     "ENUMERATION/Enumeration.md",
     "EXPLOITATION/Initial Access pgAdmin RCE.md",
     "EXPLOITATION/Subdomain db-mgmt05.fries.htb.md",
-    "images/sshuttle.png",
     "EXPLOITATION/Git history analysis.md",
     "EXPLOITATION/Docker Network Exploration.md",
     "INITIAL FOOTHOLD/Testing credentials.md",
     "POST EXPLOITATION - DOCKER CONTAINER/Network Pivoting with Ligolo-ng.md",
     "POST EXPLOITATION - DOCKER CONTAINER/Understanding the Internal Network.md",
     "POST EXPLOITATION - DOCKER CONTAINER/RCE via Query Tool.md",
-    "images/nfs_mount.png",
-    "images/fuse_nfs.png",
     "index.md",
-    "images/Untitled 1.md",
     "images/Diagram.svg.xml",
     "POST EXPLOITATION - DOCKER CONTAINER/images",
     "images/Diagram_general.svg.xml",

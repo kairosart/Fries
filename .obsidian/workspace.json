@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "EXPLOITATION/GMSA password dump.md",
+                "file": "ESCALATE PRIVILEGES/Configuration for ESC7 to ESC6.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "GMSA password dump"
+              "title": "Configuration for ESC7 to ESC6"
             }
           },
           {
@@ -28,13 +28,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "EXPLOITATION/Docker Daemon Access Layer.md",
+                "file": "ESCALATE PRIVILEGES/Configuration for ESC7 to ESC6.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Docker Daemon Access Layer"
+              "title": "Configuration for ESC7 to ESC6"
             }
           },
           {
@@ -43,13 +43,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Fries HTB – Full Attack Graph.md",
+                "file": "ESCALATE PRIVILEGES/Configuration for ESC7 to ESC6.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Fries HTB – Full Attack Graph"
+              "title": "Configuration for ESC7 to ESC6"
             }
           },
           {
@@ -58,28 +58,59 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "EXPLOITATION/Investigating PWM container.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "Investigating PWM container"
             }
           },
           {
             "id": "f2408ae5ff7051f4",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "images/Diagram.svg"
+                "file": "EXPLOITATION/Create a new tunnel.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
               },
-              "icon": "lucide-image",
-              "title": "Diagram"
+              "icon": "lucide-file",
+              "title": "Create a new tunnel"
+            }
+          },
+          {
+            "id": "ae0a12a4c13d9f6a",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Drawing 2026-01-23 19.42.50.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Drawing 2026-01-23 19.42.50.excalidraw"
+            }
+          },
+          {
+            "id": "d62a3faf56b5a75e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "EXPLOITATION/TLS Cerificates.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "TLS Cerificates"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -181,13 +212,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "EXPLOITATION/GMSA password dump.md",
+                "file": "ESCALATE PRIVILEGES/Configuration for ESC7 to ESC6.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of GMSA password dump"
+              "title": "Outline of Configuration for ESC7 to ESC6"
             }
           },
           {
@@ -349,56 +380,57 @@
       "bases:Create new base": false,
       "juggl:Juggl global graph": false,
       "webpage-html-export:Export Vault to HTML": false,
-      "oz-clear-unused-images:Clear Unused Images": false
+      "oz-clear-unused-images:Clear Unused Images": false,
+      "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "3e560b155af4a9ac",
+  "active": "c9b94e23f1a9d039",
   "lastOpenFiles": [
-    "images/Diagram.svg",
+    "ESC7.png",
+    "ESCALATE PRIVILEGES/Enable ESC16 to Disable Security.md",
+    "ESCALATE PRIVILEGES/Configuration for ESC7 to ESC6.md",
+    "certify.png",
+    "ESCALATE PRIVILEGES/CA registry‑level modification.md",
+    "ESCALATE PRIVILEGES/AD CS ESC1 abuse.md",
     "EXPLOITATION/GMSA password dump.md",
-    "EXPLOITATION/Docker Daemon Access Layer.md",
+    "Excalidraw/Drawing 2026-01-23 19.42.50.excalidraw.md",
+    "EXPLOITATION/Investigating PWM container.md",
+    "EXPLOITATION/Mounting client.md",
+    "EXPLOITATION/TLS Cerificates.md",
+    "EXPLOITATION/Create a new tunnel.md",
+    "EXPLOITATION/Detect common misconfigurations on NFS servers.md",
+    "EXPLOITATION/Creating a tunnel.md",
+    "EXPLOITATION/Clients and shares.md",
+    "EXPLOITATION/SSH access.md",
+    "README.md",
+    "Box network Schema.md",
     "Pivot Map (Attacker Movement Path).md",
+    "Diagram for dummies.md",
+    "winrm.png",
+    "certipy.png",
+    "cert_text_report.png",
+    "groups_info.png",
+    "certpy-ad.png",
+    "EXPLOITATION/Escalate user svc.md",
+    "Excalidraw",
+    "images/Diagram.svg",
+    "Fries HTB – Full Attack Graph.md",
+    "ENUMERATION/Subdomains.md",
+    "ESCALATE PRIVILEGES",
+    "ENUMERATION/Enumeration.md",
     "images/testing_creds.png",
     "images/listen_events.png",
     "images/responder.png",
-    "images/pwm.fries.htb.png",
-    "Fries HTB – Full Attack Graph.md",
-    "EXPLOITATION/Mounting client.md",
-    "EXPLOITATION/Detect common misconfigurations on NFS servers.md",
-    "EXPLOITATION/Creating a tunnel.md",
-    "EXPLOITATION/Escalate user svc_infra.md",
-    "EXPLOITATION/SSH.md",
-    "images/ldap.serverurls.png",
-    "README.md",
-    "images/container_root.png",
-    "images/copntainers_list.png",
-    "ENUMERATION/Subdomains.md",
-    "images/docker_version.png",
-    "images/openssl.png",
-    "images/certs_directory.png",
-    "EXPLOITATION/Escalate user svc.md",
-    "Diagram for dummies.md",
-    "Box network Schema.md",
     "images/Diagram.svg.xml",
     "ENUMERATION/Gitea Public repositories.md",
-    "ENUMERATION/Enumeration.md",
     "EXPLOITATION/Initial Access pgAdmin RCE.md",
     "EXPLOITATION/Subdomain db-mgmt05.fries.htb.md",
-    "EXPLOITATION/Git history analysis.md",
-    "EXPLOITATION/Docker Network Exploration.md",
-    "INITIAL FOOTHOLD/Testing credentials.md",
-    "POST EXPLOITATION - DOCKER CONTAINER/Network Pivoting with Ligolo-ng.md",
-    "POST EXPLOITATION - DOCKER CONTAINER/Understanding the Internal Network.md",
-    "POST EXPLOITATION - DOCKER CONTAINER/RCE via Query Tool.md",
-    "index.md",
     "images/Diagram.svg.xml",
     "POST EXPLOITATION - DOCKER CONTAINER/images",
     "images/Diagram_general.svg.xml",
     "images/Untitled Document",
     "images/Diagram_TUN_PROXY.svg.xml",
     "images/Diagram_internal_Docker_Network.svg.xml",
-    "Untitled/Untitled.base",
-    "Untitled/Untitled 1.base",
-    "POST EXPLOITATION - DOCKER CONTAINER"
+    "Untitled/Untitled.base"
   ]
 }

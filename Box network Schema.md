@@ -8,8 +8,8 @@
 
 ## Docker network layout
 
-| ![[network_diagram.png\|348x524]] | <br>**Schematic of a Docker network layout**<br><br>- A central *Docker Network block*<br>    <br>- Four containers: *Gitea, PgAdmin, WebApp, and PWM*<br>    <br>- An *Internal Network* layer connecting the containers<br>    <br>- A *Host System* at the base, representing the physical or virtual machine** |
-| --------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| ![[network_diagram.png\|348x524]] | <br>**Schematic of a Docker network layout**<br><br>- A central *Docker Network block*<br>    <br>- Four containers: *Gitea, PgAdmin, WebApp, and PWM*<br>    <br>- An *Internal Network* layer connecting the containers<br>    <br>- A *Host System* at the base, representing the physical or virtual machine |
+| --------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 
 ## Container-to-container routing
 

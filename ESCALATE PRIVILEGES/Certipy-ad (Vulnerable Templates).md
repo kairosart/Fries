@@ -125,7 +125,7 @@ sudo apt install certipy-ad
 
 #Attacking_machine 
 
-```
+```bash
 certipy-ad find -u 'gMSA_CA_prod$' -hashes '02dc1e938b2004f0c8145b499ee73f41' -dc-ip <MACHIINE IP> -vulnerable
 ```
 
@@ -135,6 +135,8 @@ certipy-ad find -u 'gMSA_CA_prod$' -hashes '02dc1e938b2004f0c8145b499ee73f41' -d
 
 ![[cert_text_report.png]]
 
-`ESC7` is the one we are interested in.
+Great! You've identified **ESC7**, which is a serious Active Directory Certificate Services (AD CS) vulnerability. This means the user has dangerous permissions that can be exploited for privilege escalation.
 
-**Next step:** [[CA registry‑level modification]]
+Now we can pivot from `ESC7` to `ESC6`.
+
+**Next step:** [[Configuration for ESC7 to ESC6]]

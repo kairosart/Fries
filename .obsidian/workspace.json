@@ -13,58 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ESCALATE PRIVILEGES/Configuration for ESC7 to ESC6.md",
+                "file": "EXPLOITATION/evil-winrm (GMSA_CA_PROD$).md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Configuration for ESC7 to ESC6"
-            }
-          },
-          {
-            "id": "c9b94e23f1a9d039",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ESCALATE PRIVILEGES/Configuration for ESC7 to ESC6.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "Configuration for ESC7 to ESC6"
-            }
-          },
-          {
-            "id": "1ce8b9328720899b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ESCALATE PRIVILEGES/Configuration for ESC7 to ESC6.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "Configuration for ESC7 to ESC6"
-            }
-          },
-          {
-            "id": "933d4c549d0777d4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "EXPLOITATION/Investigating PWM container.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "Investigating PWM container"
+              "title": "evil-winrm (GMSA_CA_PROD$)"
             }
           },
           {
@@ -73,40 +28,43 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "EXPLOITATION/Create a new tunnel.md",
+                "file": "ESCALATE PRIVILEGES/ESC6 Exploitation.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Create a new tunnel"
+              "title": "ESC6 Exploitation"
             }
           },
           {
             "id": "ae0a12a4c13d9f6a",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/Drawing 2026-01-23 19.42.50.excalidraw.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "Drawing 2026-01-23 19.42.50.excalidraw"
-            }
-          },
-          {
-            "id": "d62a3faf56b5a75e",
-            "type": "leaf",
-            "state": {
               "type": "markdown",
               "state": {
-                "file": "EXPLOITATION/TLS Cerificates.md",
+                "file": "ESCALATE PRIVILEGES/Certipy-ad (Vulnerable Templates).md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "TLS Cerificates"
+              "title": "Certipy-ad (Vulnerable Templates)"
+            }
+          },
+          {
+            "id": "54dfebaf42f9cf9d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "EXPLOITATION/evil-winrm (GMSA_CA_PROD$).md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "evil-winrm (GMSA_CA_PROD$)"
             }
           }
         ],
@@ -212,13 +170,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ESCALATE PRIVILEGES/Configuration for ESC7 to ESC6.md",
+                "file": "ESCALATE PRIVILEGES/ESC6 Exploitation.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Configuration for ESC7 to ESC6"
+              "title": "Outline of ESC6 Exploitation"
             }
           },
           {
@@ -384,47 +342,48 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "c9b94e23f1a9d039",
+  "active": "f2408ae5ff7051f4",
   "lastOpenFiles": [
-    "ESC7.png",
+    "administrator.pfx.png",
+    "getAddUserAdministrator.png",
     "ESCALATE PRIVILEGES/Enable ESC16 to Disable Security.md",
     "ESCALATE PRIVILEGES/Configuration for ESC7 to ESC6.md",
-    "certify.png",
-    "ESCALATE PRIVILEGES/CA registry‑level modification.md",
-    "ESCALATE PRIVILEGES/AD CS ESC1 abuse.md",
-    "EXPLOITATION/GMSA password dump.md",
-    "Excalidraw/Drawing 2026-01-23 19.42.50.excalidraw.md",
+    "ESCALATE PRIVILEGES/Certipy-ad (Vulnerable Templates).md",
+    "EXPLOITATION/Create a new tunnel (Entry point).md",
+    "ESCALATE PRIVILEGES/ESC6 Exploitation.md",
+    "EXPLOITATION/evil-winrm (GMSA_CA_PROD$).md",
+    "EXPLOITATION/GMSA user's password dump.md",
+    "EXPLOITATION/Untitled.canvas",
     "EXPLOITATION/Investigating PWM container.md",
-    "EXPLOITATION/Mounting client.md",
     "EXPLOITATION/TLS Cerificates.md",
-    "EXPLOITATION/Create a new tunnel.md",
+    "EXPLOITATION/Mounting client.md",
     "EXPLOITATION/Detect common misconfigurations on NFS servers.md",
     "EXPLOITATION/Creating a tunnel.md",
+    "EXPLOITATION/Escalate user svc.md",
     "EXPLOITATION/Clients and shares.md",
+    "failed_cert_request.png",
+    "Excalidraw/Drawing 2026-01-23 19.42.50.excalidraw.md",
+    "ENUMERATION/Enumeration.md",
+    "ENUMERATION/Gitea Public repositories.md",
+    "ENUMERATION/Subdomains.md",
+    "request_id.png",
+    "enabled_SubCA.png",
+    "add_officer_gMSA.png",
     "EXPLOITATION/SSH access.md",
+    "certipi.png",
+    "images/CA registry‑level modification.md",
+    "ESCALATE PRIVILEGES/CA registry‑level modification.md",
+    "ESC7.png",
+    "certify.png",
     "README.md",
     "Box network Schema.md",
     "Pivot Map (Attacker Movement Path).md",
     "Diagram for dummies.md",
     "winrm.png",
     "certipy.png",
-    "cert_text_report.png",
-    "groups_info.png",
-    "certpy-ad.png",
-    "EXPLOITATION/Escalate user svc.md",
     "Excalidraw",
-    "images/Diagram.svg",
-    "Fries HTB – Full Attack Graph.md",
-    "ENUMERATION/Subdomains.md",
     "ESCALATE PRIVILEGES",
-    "ENUMERATION/Enumeration.md",
-    "images/testing_creds.png",
-    "images/listen_events.png",
-    "images/responder.png",
     "images/Diagram.svg.xml",
-    "ENUMERATION/Gitea Public repositories.md",
-    "EXPLOITATION/Initial Access pgAdmin RCE.md",
-    "EXPLOITATION/Subdomain db-mgmt05.fries.htb.md",
     "images/Diagram.svg.xml",
     "POST EXPLOITATION - DOCKER CONTAINER/images",
     "images/Diagram_general.svg.xml",

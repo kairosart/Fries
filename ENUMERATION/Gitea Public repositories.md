@@ -4,7 +4,7 @@
 Open in browser:
 
 ```
-http://code.fries.htb
+http://code.fries.hhtb
 ```
 
 ![[repositories.png]]
@@ -50,7 +50,7 @@ Add `db-mgmt05.fries.htb` to `/etc/hosts`.
 
 Searching through Git history reveals sensitive credentials of `ps_db` database:
 
-```
+```bash
 git clone http://code.fries.htb/dale/fries.htb.git
 ```
 
@@ -58,7 +58,7 @@ Credentials:
 Username: [d.cooper@fries.htb](mailto:d.cooper@fries.htb) 
 Password: `D4LE11maan!!`
 
-```
+```bash
 cd app
 git log -p --all | grep -i "postgresql\|postgres\|database_url\|sqlalchemy" -B 5 -A 5
 ```

@@ -4,7 +4,7 @@ Look for subdomains.
 
 ### DNS ANY Query Summary – *fries.htb*
 
-```
+```bash
 dig @<MACHINE IP> fries.htb ANY
 ```
 
@@ -140,7 +140,7 @@ You now have confirmation of:
 #Attacking_machine 
 Do a VHost brute-force.
 
-```
+```bash
 ffuf -u http://<MACHINE IP>/ -H "Host: FUZZ.fries.htb" \
      -w /usr/share/wordlists/SecLists/Discovery/DNS/subdomains-top1million-110000.txt \
      -fs 154
@@ -159,18 +159,18 @@ ffuf -u http://<MACHINE IP>/ -H "Host: FUZZ.fries.htb" \
 
  1. Open `/etc/hosts`.
 
-```
+```bash
 sudo nano /etc/hosts
 ```
 
 2. Add it to `/etc/hosts` .
-```
+```bash
 <MACHINE IP> code.fries.htb
 ```
 
 3. Pull the Page Source (Don’t Trust the Browser Alone)
 
-```
+```bash
 curl -s http://code.fries.htb | tee code.html
 ```
 

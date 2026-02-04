@@ -31,6 +31,7 @@ Further exploitation involves abusing Kerberos delegation through the msDS-Allow
 
 ![[fries_pki_neon.png]]
 
+
 ## 🏢 Infrastructure Layers
 
 ### Domain Controller (DC01.fries.htb) - The PKI core with:

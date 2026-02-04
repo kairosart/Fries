@@ -25,3 +25,7 @@ Enable the VirtualBox Guest Additions time sync service.
 sudo systemctl stop vboxadd-service
 sudo systemctl disable vboxadd-service
 ```
+
+
+[[HTB “Fries” – Security Assessment Report]]
+

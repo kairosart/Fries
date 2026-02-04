@@ -3,7 +3,7 @@ This a enumeration task. You can use *nmap* to figure out the answer.
 
 #Attacking_machine
 
-```
+```bash
 nmap -sC -sV <MACHINE ip>
 ```
 

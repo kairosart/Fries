@@ -103,13 +103,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "ESCALATE PRIVILEGES/Flag Retrieval.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "Flag Retrieval"
             }
           }
         ],
@@ -215,13 +215,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md",
+                "file": "ESCALATE PRIVILEGES/Flag Retrieval.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of README"
+              "title": "Outline of Flag Retrieval"
             }
           },
           {
@@ -389,6 +389,7 @@
   },
   "active": "baf70600568e959b",
   "lastOpenFiles": [
+    "README.md",
     "index.md",
     "INITIAL FOOTHOLD/Testing credentials.md",
     "EXPLOITATION/TLS Cerificates.md",
@@ -412,7 +413,8 @@
     "ENUMERATION/Subdomains.md",
     "ENUMERATION/Services and ports.md",
     "ENUMERATION/Gitea Public repositories.md",
-    "README.md",
+    "ESCALATE PRIVILEGES/Flag Retrieval.md",
+    "ESCALATE PRIVILEGES/ESC6 + ESC16 Exploitation.md",
     "docs/lib/metadata.json",
     "docs/lib/media/6155340132a851f6089e.svg",
     "docs/lib/media",
@@ -424,7 +426,6 @@
     "docs/lib/fonts/454577c22304619db035.ttf",
     "docs/lib/fonts/70cc7ff27245e82ad414.ttf",
     "docs/lib/fonts",
-    "ESCALATE PRIVILEGES/Flag Retrieval.md",
     "images/docker_network-3.png",
     "Fires_pki_pastel.png",
     "docker_network-2.png",

@@ -22,8 +22,8 @@ type C:\Users\Administrator\Desktop\root.txt
 Enable the VirtualBox Guest Additions time sync service.
 
 ```bash
-sudo systemctl stop vboxadd-service
-sudo systemctl disable vboxadd-service
+sudo systemctl start vboxadd-service
+sudo systemctl enable vboxadd-service
 ```
 
 

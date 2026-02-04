@@ -1,6 +1,6 @@
 {
   "vaultName": "You Got Mail",
-  "lastExport": 1770228388852,
+  "lastExport": 1770229533906,
   "pluginVersion": "1.8.01",
   "validBodyClasses": "publish css-settings-manager theme-dark show-inline-title show-ribbon",
   "useCustomHeadContent": false,
@@ -55,217 +55,217 @@
   ],
   "fileInfo": {
     "ENUMERATION/Gitea Public repositories.md": {
-      "modifiedTime": 1770228388852,
+      "modifiedTime": 1770229533906,
       "sourceSize": 1581,
       "exportedPath": "ENUMERATION/Gitea Public repositories.html",
       "dependencies": []
     },
     "ENUMERATION/Services and ports.md": {
-      "modifiedTime": 1770228388852,
+      "modifiedTime": 1770229533906,
       "sourceSize": 2208,
       "exportedPath": "ENUMERATION/Services and ports.html",
       "dependencies": []
     },
     "ENUMERATION/Subdomains.md": {
-      "modifiedTime": 1770228388852,
+      "modifiedTime": 1770229533906,
       "sourceSize": 4188,
       "exportedPath": "ENUMERATION/Subdomains.html",
       "dependencies": []
     },
     "ESCALATE PRIVILEGES/Authentication as Administrator.md": {
-      "modifiedTime": 1770228388852,
+      "modifiedTime": 1770229533906,
       "sourceSize": 465,
       "exportedPath": "ESCALATE PRIVILEGES/Authentication as Administrator.html",
       "dependencies": []
     },
     "ESCALATE PRIVILEGES/CA Configuration for ESC6 + ESC16.md": {
-      "modifiedTime": 1770228388852,
+      "modifiedTime": 1770229533906,
       "sourceSize": 1376,
       "exportedPath": "ESCALATE PRIVILEGES/CA Configuration for ESC6 + ESC16.html",
       "dependencies": []
     },
     "ESCALATE PRIVILEGES/ESC6 + ESC16 Exploitation.md": {
-      "modifiedTime": 1770228388852,
+      "modifiedTime": 1770229533906,
       "sourceSize": 841,
       "exportedPath": "ESCALATE PRIVILEGES/ESC6 + ESC16 Exploitation.html",
       "dependencies": []
     },
     "ESCALATE PRIVILEGES/ESC16 — Disable Extension List.md": {
-      "modifiedTime": 1770228388852,
+      "modifiedTime": 1770229533906,
       "sourceSize": 1187,
       "exportedPath": "ESCALATE PRIVILEGES/ESC16 — Disable Extension List.html",
       "dependencies": []
     },
     "ESCALATE PRIVILEGES/Flag Retrieval.md": {
-      "modifiedTime": 1770228388852,
+      "modifiedTime": 1770229533906,
       "sourceSize": 488,
       "exportedPath": "ESCALATE PRIVILEGES/Flag Retrieval.html",
       "dependencies": []
     },
     "EXPLOITATION/Clients and shares.md": {
-      "modifiedTime": 1770228388852,
+      "modifiedTime": 1770229533906,
       "sourceSize": 874,
       "exportedPath": "EXPLOITATION/Clients and shares.html",
       "dependencies": []
     },
     "EXPLOITATION/Create a new tunnel (Entry point).md": {
-      "modifiedTime": 1770228388852,
+      "modifiedTime": 1770229533906,
       "sourceSize": 186,
       "exportedPath": "EXPLOITATION/Create a new tunnel (Entry point).html",
       "dependencies": []
     },
     "EXPLOITATION/Creating a tunnel.md": {
-      "modifiedTime": 1770228388852,
+      "modifiedTime": 1770229533906,
       "sourceSize": 837,
       "exportedPath": "EXPLOITATION/Creating a tunnel.html",
       "dependencies": []
     },
     "EXPLOITATION/Detect common misconfigurations on NFS servers.md": {
-      "modifiedTime": 1770228388852,
+      "modifiedTime": 1770229533906,
       "sourceSize": 4698,
       "exportedPath": "EXPLOITATION/Detect common misconfigurations on NFS servers.html",
       "dependencies": []
     },
     "EXPLOITATION/Docker Network Exploration.md": {
-      "modifiedTime": 1770228388852,
+      "modifiedTime": 1770229533906,
       "sourceSize": 3128,
       "exportedPath": "EXPLOITATION/Docker Network Exploration.html",
       "dependencies": []
     },
     "EXPLOITATION/Escalate user svc.md": {
-      "modifiedTime": 1770228388852,
+      "modifiedTime": 1770229533906,
       "sourceSize": 407,
       "exportedPath": "EXPLOITATION/Escalate user svc.html",
       "dependencies": []
     },
     "EXPLOITATION/evil-winrm (GMSA_CA_PROD$).md": {
-      "modifiedTime": 1770228388852,
+      "modifiedTime": 1770229533906,
       "sourceSize": 837,
       "exportedPath": "EXPLOITATION/evil-winrm (GMSA_CA_PROD$).html",
       "dependencies": []
     },
     "EXPLOITATION/Git history analysis.md": {
-      "modifiedTime": 1770228388852,
+      "modifiedTime": 1770229533906,
       "sourceSize": 6530,
       "exportedPath": "EXPLOITATION/Git history analysis.html",
       "dependencies": []
     },
     "EXPLOITATION/GMSA user's password dump.md": {
-      "modifiedTime": 1770228388852,
+      "modifiedTime": 1770229533906,
       "sourceSize": 3141,
       "exportedPath": "EXPLOITATION/GMSA user's password dump.html",
       "dependencies": []
     },
     "EXPLOITATION/Initial Access pgAdmin RCE.md": {
-      "modifiedTime": 1770228388852,
+      "modifiedTime": 1770229533906,
       "sourceSize": 1774,
       "exportedPath": "EXPLOITATION/Initial Access pgAdmin RCE.html",
       "dependencies": []
     },
     "EXPLOITATION/Internal network schema.md": {
-      "modifiedTime": 1770228388852,
+      "modifiedTime": 1770229533906,
       "sourceSize": 25,
       "exportedPath": "EXPLOITATION/Internal network schema.html",
       "dependencies": []
     },
     "EXPLOITATION/Investigating PWM container.md": {
-      "modifiedTime": 1770228388852,
+      "modifiedTime": 1770229533906,
       "sourceSize": 1590,
       "exportedPath": "EXPLOITATION/Investigating PWM container.html",
       "dependencies": []
     },
     "EXPLOITATION/Mounting client.md": {
-      "modifiedTime": 1770228388852,
+      "modifiedTime": 1770229533906,
       "sourceSize": 1054,
       "exportedPath": "EXPLOITATION/Mounting client.html",
       "dependencies": []
     },
     "EXPLOITATION/SSH access.md": {
-      "modifiedTime": 1770228388852,
+      "modifiedTime": 1770229533906,
       "sourceSize": 257,
       "exportedPath": "EXPLOITATION/SSH access.html",
       "dependencies": []
     },
     "EXPLOITATION/Subdomain db-mgmt05.fries.htb.md": {
-      "modifiedTime": 1770228388852,
+      "modifiedTime": 1770229533906,
       "sourceSize": 516,
       "exportedPath": "EXPLOITATION/Subdomain db-mgmt05.fries.htb.html",
       "dependencies": []
     },
     "EXPLOITATION/TLS Cerificates.md": {
-      "modifiedTime": 1770228388852,
+      "modifiedTime": 1770229533906,
       "sourceSize": 2596,
       "exportedPath": "EXPLOITATION/TLS Cerificates.html",
       "dependencies": []
     },
     "INITIAL FOOTHOLD/Testing credentials.md": {
-      "modifiedTime": 1770228388852,
+      "modifiedTime": 1770229533906,
       "sourceSize": 1106,
       "exportedPath": "INITIAL FOOTHOLD/Testing credentials.html",
       "dependencies": []
     },
     "HTB “Fries” – Security Assessment Report.md": {
-      "modifiedTime": 1770228388852,
+      "modifiedTime": 1770229533906,
       "sourceSize": 6166,
       "exportedPath": "HTB “Fries” – Security Assessment Report.html",
       "dependencies": []
     },
     "index.md": {
-      "modifiedTime": 1770228388852,
+      "modifiedTime": 1770229533906,
       "sourceSize": 1270,
       "exportedPath": "index.html",
       "dependencies": []
     },
     "README.md": {
-      "modifiedTime": 1770228388852,
+      "modifiedTime": 1770229533906,
       "sourceSize": 3859,
       "exportedPath": "README.html",
       "dependencies": []
     },
     "lib/fonts/70cc7ff27245e82ad414.ttf": {
-      "modifiedTime": 1770228388852,
+      "modifiedTime": 1770229533906,
       "sourceSize": 192740,
       "exportedPath": "lib/fonts/70cc7ff27245e82ad414.ttf",
       "dependencies": []
     },
     "lib/fonts/454577c22304619db035.ttf": {
-      "modifiedTime": 1770228388852,
+      "modifiedTime": 1770229533906,
       "sourceSize": 161376,
       "exportedPath": "lib/fonts/454577c22304619db035.ttf",
       "dependencies": []
     },
     "lib/fonts/52ac8f3034507f1d9e53.ttf": {
-      "modifiedTime": 1770228388852,
+      "modifiedTime": 1770229533906,
       "sourceSize": 191568,
       "exportedPath": "lib/fonts/52ac8f3034507f1d9e53.ttf",
       "dependencies": []
     },
     "lib/fonts/05b618077343fbbd92b7.ttf": {
-      "modifiedTime": 1770228388852,
+      "modifiedTime": 1770229533906,
       "sourceSize": 155288,
       "exportedPath": "lib/fonts/05b618077343fbbd92b7.ttf",
       "dependencies": []
     },
     "lib/fonts/4bb6ac751d1c5478ff3a.woff2": {
-      "modifiedTime": 1770228388852,
+      "modifiedTime": 1770229533906,
       "sourceSize": 7876,
       "exportedPath": "lib/fonts/4bb6ac751d1c5478ff3a.woff2",
       "dependencies": []
     },
     "lib/fonts/c504db5c06caaf7cdfba.woff2": {
-      "modifiedTime": 1770228388852,
+      "modifiedTime": 1770229533906,
       "sourceSize": 352240,
       "exportedPath": "lib/fonts/c504db5c06caaf7cdfba.woff2",
       "dependencies": []
     },
     "lib/fonts/01dcbad1bac635f9c9cd.woff2": {
-      "modifiedTime": 1770228388852,
+      "modifiedTime": 1770229533906,
       "sourceSize": 387976,
       "exportedPath": "lib/fonts/01dcbad1bac635f9c9cd.woff2",
       "dependencies": []
     },
     "lib/media/6155340132a851f6089e.svg": {
-      "modifiedTime": 1770228388852,
+      "modifiedTime": 1770229533906,
       "sourceSize": 315,
       "exportedPath": "lib/media/6155340132a851f6089e.svg",
       "dependencies": []
